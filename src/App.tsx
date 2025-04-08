@@ -1,7 +1,5 @@
 import React from 'react';
 import ModuleOne from './moduleone';
-import ModuleTwo from './moduletwo';
-import ModuleThree from './modulethree';
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
