@@ -429,7 +429,7 @@ export default function ModuleOne () {
   }, []);
 
   return (
-    <div className="h-full w-full flex flex-col">
+    <div className="h-[700px] w-full flex flex-col">
             {/* Debug buttons */}
       <div className="flex gap-2 p-2 bg-gray-100 flex-wrap">
         <button
