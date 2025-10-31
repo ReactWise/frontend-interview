@@ -2,19 +2,19 @@ export interface ContinuousInput {
 	id: number;
 	name: string;
 	unit: string;
-	decimals: number;
-	min: number;
-	max: number;
+	precision: number;
+	min: string;
+	max: string;
 	is_discrete: boolean;
-	step?: number;
+	step?: string;
 }
 
 const example: ContinuousInput = {
 	id: 1,
 	name: "Temperature",
 	unit: "°C",
-	decimals: 2,
-	min: -100,
-	max: 100,
+	precision: 2,
+	min: "-100.00",
+	max: "100.00",
 	is_discrete: false,
 };
