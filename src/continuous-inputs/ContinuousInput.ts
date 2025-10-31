@@ -16,5 +16,6 @@ const example: ContinuousInput = {
 	precision: 2,
 	min: "-100.00",
 	max: "100.00",
-	is_discrete: false,
+	is_discrete: true,
+	step_size: "0.05",
 };
