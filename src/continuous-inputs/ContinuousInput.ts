@@ -6,7 +6,7 @@ export interface ContinuousInput {
 	min: string;
 	max: string;
 	is_discrete: boolean;
-	step?: string;
+	step_size?: string;
 }
 
 const example: ContinuousInput = {
