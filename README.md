@@ -6,14 +6,18 @@ This is a minimal React + Vite + Tailwind CSS + TypeScript starter template for 
 
 1. Clone this repository
 2. Install dependencies:
+
    ```bash
    npm install
    ```
+
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
-4. Open your browser and navigate to http://localhost:5173
+
+4. Open your browser and navigate to <http://localhost:5173>
 
 ## Available Scripts
 
